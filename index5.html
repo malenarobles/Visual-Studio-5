@@ -1,0 +1,73 @@
+// Qué es y como se utiliza spread operator
+<script>
+
+/*
+const nombres = ["Pedro", "Juan", "Carlos"]
+
+let nombresModificado = [...nombres]
+
+nombresModificado[0] = "Cachito"
+
+console.log("Valor de nombres:", nombres)
+
+console.log("Valor de Modificado:", nombresModificado)
+*/
+
+//-------------------------------------------------------
+
+// Concatenación
+
+/*
+const nombres = ["Pedro", "Juan", "Carlos"]
+
+const masNombres = ["Felipe", "Matias", "Federico"]
+
+console.log([...nombres, "Jorgelin", ...masNombres, 9])
+*/
+
+//-------------------------------------------------------
+
+// Con objetos
+
+/*
+const persona = {
+    nomre: "Ricardo",
+    id: 4321
+}
+
+let personaDuplicada = {...persona}
+
+personaDuplicada.direccion = "SiempreViva 765"
+
+console.log( persona )
+console.log( personaDuplicada )
+*/
+
+
+/*
+const personaContacto = {
+    telefono: "+5521995568854",
+    email: "ricardo@ricardnet.com"
+}
+
+const personaTotal = {...persona, ...personaContacto, id:1234 }
+
+console.log(personaTotal)
+*/
+
+/*
+
+const datosNormales = {
+    altura: 14,
+    peso: 10,
+    ruedas: 4
+}
+
+const datosCopiadosYModificados = {
+    ...datosNormales,
+    ruedas: 5
+}
+
+console.log(datosCopiadosYModificados)
+*/
+</script>
